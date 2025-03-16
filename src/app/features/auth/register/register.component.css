@@ -1,0 +1,76 @@
+/* Apply styles to the entire page */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Center the form container */
+.register-form {
+    width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fafafa;
+    text-align: left;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input field styling */
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Submit button styling */
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.submit-btn:hover:not(:disabled) {
+    background-color: #218838;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
